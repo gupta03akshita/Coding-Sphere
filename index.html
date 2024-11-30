@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Tech-Con</title>
+		<!-- FAVICON -->
+		<link rel="icon" type="image/x-icon" href="Images/Tech-Con.jpg" />
+		<!-- BOOTSTRAP CDN -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+			crossorigin="anonymous"
+		/>
+
+		<!-- INTERNAL STYLES -->
+		<style>
+			.tableHover tr:hover th {
+				color: white;
+				background-color: rgb(148, 146, 146);
+			}
+
+			#heroSection {
+				background-image: url("./Images/BackgroundImg.jpg");
+				background-size: cover;
+			}
+		</style>
+	</head>
+
+	<body>
+		<!-- -------- NAVBAR BEGINS -------- -->
+
+		<nav class="navbar-nav bg-dark position-fixed-top container-fluid">
+			<div class="d-flex justify-content-around">
+				<div class="navbarItem text-white d-flex fs-8 w-50 gap-4">
+					<div><a href="#Home" class="nav-link">Home</a></div>
+					<div><a href="#About" class="nav-link">About</a></div>
+					<div>
+						<a href="#SpecialGuests" class="nav-link">Special Guests</a>
+					</div>
+					<div><a href="#Schedule" class="nav-link">Schedule</a></div>
+				</div>
+
+				<div
+					class="navbarItem d-flex justify-content-center align-items-center w-25"
+				>
+					<a class="navbar-brand text-white fw-bolder fs-5" href="#"
+						>By Coding Sphere</a
+					>
+				</div>
+			</div>
+		</nav>
+
+		<!-- -------- NAVBAR ENDS -------- -->
+
+		<!-- -------- HERO SECTION BEGINS -------- -->
+
+		<div id="heroSection" class="bg-secondary-subtle" style="height: 70vh">
+			<div>
+				<h1 class="display-1 pt-5 fw-bold text-center">Tech-Con!</h1>
+				<h5 class="text-center fs-5 fw-bold">Coming soon to Coding Sphere.</h5>
+				<p class="text-center fs-6 mx-5 mt-3">
+					The event brings together cutting-edge technology, inspiring speakers,
+					and hands-on workshops to explore the future of the digital world.
+					Whether you're looking to upskill, discover breakthrough solutions, or
+					connect with like-minded peers, TechCon offers an immersive experience
+					that keeps you ahead in the fast-evolving tech landscape.
+				</p>
+				<div class="btnGroup text-center mt-5">
+					<button type="button" class="btn fs-5 btn-secondary rounded-0 w-25">
+						Register
+					</button>
+					<button type="button" class="btn fs-5 btn-dark rounded-0 w-25">
+						Schedule
+					</button>
+				</div>
+			</div>
+		</div>
+
+		<!-- -------- HERO SECTION ENDS -------- -->
+
+		<!-- -------- ABOUT SECTION BEGINS -------- -->
+
+		<div class="container mt-5" id="About">
+			<div class="row text-center">
+				<div class="col-12 col-md-6 col-lg-4">
+					<h1 class="display-6 fw-medium fs-2">About Tech-Con</h1>
+					<p>
+						TechCon is a premier annual tech conference that brings together
+						developers, innovators, and business leaders to explore and shape
+						the future of technology. Featuring expert-led sessions on topics
+						like AI, machine learning, software development, cybersecurity, and
+						emerging technologies, TechCon provides hands-on workshops,
+						networking opportunities, and insightful keynotes from industry
+						leaders. It's a unique platform for tech enthusiasts and
+						professionals to share ideas, learn from the best in the field, and
+						gain valuable insights into the latest trends.
+					</p>
+				</div>
+
+				<div class="col-12 col-md-6 col-lg-4">
+					<h1 class="display-6 fw-medium fs-2">Tech-Con Importance</h1>
+					<img
+						height="40%"
+						width="80%"
+						src="./Images/Tech-Con.jpg"
+						alt="Tech-Con"
+					/>
+					<p class="mt-2">
+						TechCon plays a crucial role as a catalyst for innovation, learning,
+						and industry advancement. By gathering top industry experts,
+						developers, and thought leaders, TechCon offers attendees a unique
+						chance to dive into complex topics like AI, cloud computing, and
+						cybersecurity through insightful talks and hands-on workshops. The
+						event serves as a powerful networking hub, connecting like-minded
+						individuals and fostering collaborations that often lead to
+						groundbreaking projects and career opportunities.
+					</p>
+				</div>
+
+				<div class="col-12 col-md-12 col-lg-4">
+					<h1 class="display-6 fw-medium fs-2">Exciting Things</h1>
+					<table class="table table-bordered">
+						<tr>
+							<th>Expert Key Notes</th>
+						</tr>
+						<tr>
+							<th>Hands on Session</th>
+						</tr>
+						<tr>
+							<th>Hackathon Challenge</th>
+						</tr>
+						<tr>
+							<th>Career Guidance</th>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+
+		<!-- -------- ABOUT SECTION ENDS -------- -->
+
+		<!-- -------- SPECIAL GUEST SECTION BEGINS -------- -->
+
+		<div class="container mt-5" id="SpecialGuests">
+			<h1 class="display-4 text-center fw-normal mb-3 text-body-secondary">
+				Special Guests
+			</h1>
+			<div
+				class="container d-flex flex-wrap justify-content-center text-center mt-5"
+				style="gap: 50px 100px"
+			>
+				<div class="card rounded-0" style="width: 18rem">
+					<img
+						class="rounded-0"
+						height="380px"
+						src="./Images/Guest_1.jpg"
+						class="card-img-top"
+						alt="Guest"
+					/>
+					<div class="card-body">
+						<h5 class="card-title">Clara Sen</h5>
+						<p class="card-text">
+							With extensive experience in technology innovation, evaluates
+							projects based on originality, creativity, and breakthrough
+							potential.
+						</p>
+					</div>
+				</div>
+				<div class="card rounded-0" style="width: 18rem">
+					<img
+						class="rounded-0"
+						height="380px"
+						src="./Images/Guest_2.jpg"
+						class="card-img-top"
+						alt="Guest"
+					/>
+					<div class="card-body">
+						<h5 class="card-title">Rohan Sharma</h5>
+						<p class="card-text">
+							A seasoned software developer, assesses the technical complexity,
+							functionality, and execution of each project.
+						</p>
+					</div>
+				</div>
+				<div class="card rounded-0" style="width: 18rem">
+					<img
+						class="rounded-0"
+						height="380px"
+						src="./Images/Guest_3.jpg"
+						class="card-img-top"
+						alt="Guest"
+					/>
+					<div class="card-body">
+						<h5 class="card-title">John Doe</h5>
+
+						<p class="card-text">
+							Focusing on design and user interaction, evaluates projects on
+							accessibility, user-centered design, and overall experience
+							quality.
+						</p>
+					</div>
+				</div>
+				<div class="card rounded-0" style="width: 18rem">
+					<img
+						class="rounded-0"
+						height="380px"
+						src="./Images/Guest_4.jpg"
+						class="card-img-top"
+						alt="Guest"
+					/>
+					<div class="card-body">
+						<h5 class="card-title">Celiene Joe</h5>
+						<p class="card-text">
+							Passionate about technology for good, assesses projects based on
+							societal impact, sustainability, and real-world applications.
+						</p>
+					</div>
+				</div>
+				<div class="card rounded-0" style="width: 18rem">
+					<img
+						class="rounded-0"
+						height="380px"
+						src="./Images/Guest_5.jpg"
+						class="card-img-top"
+						alt="Guest"
+					/>
+					<div class="card-body">
+						<h5 class="card-title">Dev Dixit</h5>
+						<p class="card-text">
+							With a background in business strategy, evaluates the commercial
+							viability, market fit, and potential scalability of each project.
+						</p>
+					</div>
+				</div>
+				<div class="card rounded-0" style="width: 18rem">
+					<img
+						class="rounded-0"
+						height="380px"
+						src="./Images/Guest_6.jpg"
+						class="card-img-top"
+						alt="Guest"
+					/>
+					<div class="card-body">
+						<h5 class="card-title">Peter Shergil</h5>
+						<p class="card-text">
+							With expertise in data science and machine learning, assesses
+							projects for their effective use of data, algorithmic soundness,
+							and potential for intelligent insights and predictions.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- -------- SPECIAL GUEST SECTION ENDS -------- -->
+
+		<!-- -------- SCHEDULE INFORMATION BEGINS -------- -->
+
+		<div class="container mt-5" id="Schedule">
+			<h1 class="display-4 text-center fw-normal mb-3 text-body-secondary">
+				Schedule
+			</h1>
+			<table class="table tableHover table-bordered fs-5 mt-5">
+				<tr>
+					<th>
+						Opening Key Note and Registrations
+						<button
+							type="button"
+							class="btn btn-primary float-end border-0 rounded-pill"
+						>
+							09:00 am
+						</button>
+					</th>
+				</tr>
+				<tr>
+					<th>
+						Pannel Discussion on Emerging Trends
+						<button
+							type="button"
+							class="btn btn-primary float-end border-0 rounded-pill"
+						>
+							11:00 am
+						</button>
+					</th>
+				</tr>
+				<tr>
+					<th>
+						Lunch Break!
+						<button
+							type="button"
+							class="btn btn-primary float-end border-0 rounded-pill"
+						>
+							01:00 pm
+						</button>
+					</th>
+				</tr>
+				<tr>
+					<th>
+						Innovation Showcase
+						<button
+							type="button"
+							class="btn btn-primary float-end border-0 rounded-pill"
+						>
+							03:00 pm
+						</button>
+					</th>
+				</tr>
+				<tr>
+					<th>
+						Hackathon Kickoff
+						<button
+							type="button"
+							class="btn btn-primary float-end border-0 rounded-pill"
+						>
+							04:00 pm
+						</button>
+					</th>
+				</tr>
+				<tr>
+					<th>
+						Juding and Mentoring
+						<button
+							type="button"
+							class="btn btn-primary float-end border-0 rounded-pill"
+						>
+							05:00 am
+						</button>
+					</th>
+				</tr>
+			</table>
+		</div>
+
+		<!-- -------- SCHEDULE INFORMATION ENDS -------- -->
+
+		<!-- -------- FOOTER SECTION BEGINS -------- -->
+
+		<div class="container mt-5">
+			<hr />
+			<div class="row justify-content-between mt-4">
+				<div class="col-5 fw-medium">
+					<p class="fw-bolder">Tech-Con</p>
+					<p class="fs-6">
+						TechCon shapes tech innovation. Contact us at info@techcon.com,
+						follow us on social media, and review our Code of Conduct. We
+						promote a welcoming environment for all attendees. If you're
+						interested in partnering with us, explore our sponsorship
+						opportunities. We value your privacy, so please take a moment to
+						read our Privacy Policy.
+					</p>
+				</div>
+				<div class="col-5 fw-medium">
+					<p>Subscribe to our Newsletters!</p>
+					<div class="input-group mb-3">
+						<input
+							type="text"
+							class="form-control"
+							placeholder="Email ID"
+							aria-label="Recipient's username"
+							aria-describedby="button-addon2"
+						/>
+						<button
+							class="btn btn-outline-secondary"
+							type="button"
+							id="button-addon2"
+						>
+							Submit
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- -------- FOOTER SECTION ENDS -------- -->
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+			integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+			integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
